@@ -105,4 +105,60 @@
   490  > 1.txt
   491  ls -lh 1.txt
   492  history
-
+522  apt update
+  523  apt install tree -y
+  524  history
+  525  touch .a
+  526  ls -a
+  527  mv .a .b
+  528  ls
+  529  ls -a
+  530  mv .b /home
+  531  ls
+  532  ls -a
+  533  ls -a /home
+  534  ls -l
+  535  clear
+  536  useradd aman
+  537  useradd jay
+  538  ls -l 1.txt
+  539  chmod 000 1.txt
+  540  ls -l 1.txt
+  541  chmod 001 1.txt
+  542  ls -l 1.txt
+  543  chmod 444 1.txt
+  544  ls -l 1.txt
+  545  chmod 666 1.txt
+  546  ls -l 1.txt
+  547  chmod 777 1.txt
+  548  ls -l 1
+  549  ls -l 1.txt
+  550  chmod 111 1.txt
+  551  ls -l 1.txt
+  552  # chmod 888 1.txt
+  553  # 0 to 7
+  554  # 0 to 7 -- octal or numerical method
+  555  chmod a+rwx 1.txt
+  556  ls -l 1.txt
+  557  chmod a-rwx 1.txt
+  558  ls -l 1.txt
+  559  chmod u+rwx 1.txt
+  560  ls -l 1.txt
+  561  chmod g+r 1.txt
+  562  ls -l 1.txt
+  563  chmod g+rw,o+x,u-w 1.txt
+  564  ls -l 1.txt
+  565  # symbolic method
+  566  history
+  567  useradd gaurav
+  568  groupadd IT
+  569  groupadd HR
+  570  ls -l 1.txt
+  571  chown aman 1.txt
+  572  ls -l 1.txt
+  573  chgrp IT 1.txt
+  574  ls -l 1.txt
+  575  chown gourav:HR 1.txt
+  576  chown gaurav:HR 1.txt
+  577  ls -l 1.txt
+  578  history
