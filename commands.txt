@@ -88,3 +88,21 @@
   472  rm ?.txt
   473  ls
   474  history
+ 476  > index.html
+  477  >> index.php
+  478  echo 123 > index.html
+  479  cat index.
+  480  cat index.html
+  481  echo "I Like samosa" >> index.html
+  482  cat index.html
+  483  echo "I Like Dosa" > index.html
+  484  cat index.html
+  485  ls
+  486  dd if=/dev/zer of=1.txt bs=1M count=1
+  487  dd if=/dev/zer0 of=1.txt bs=1M count=1
+  488  dd if=/dev/zero of=1.txt bs=1M count=1
+  489  ls -lh 1.txt
+  490  > 1.txt
+  491  ls -lh 1.txt
+  492  history
+
