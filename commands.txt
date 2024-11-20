@@ -1,0 +1,90 @@
+385  date
+  386  date "+%d"
+  387  date "+%d-%m"
+  388  date "+%d-%b"
+  389  date "+%d-%b-Y"
+  390  date "+%d-%b-%Y"
+  391  date "+%d-%b-%y"
+  392  date "+%d-%b-%y:%H"
+  393  date "+%d-%b-%y:%H:%M"
+  394  date "+%d-%b-%y:%H:%M:%s"
+  395  man date
+  396  date --help
+  397  history
+  398  hostnamectl
+  399  cat /etc/os-release
+  400  uname -r
+  401  echo $USER
+  402  echo $UID
+  403  echo $SHELL
+  404  history
+ 405  echo $0
+  406  mkdir /vadapav
+  407  cd /vadapav/
+  408  # how to create files
+  409  clear
+  410  touch 1.txt
+  411  ls
+  412  touch {1..10}.txt
+  413  ls
+  414  touch {1..100}.txt
+  415  ls
+  416  touch {1..100000}.txt
+  417  ls
+  418  history
+  419  # it create empty file
+  420  # it updates timestamp of file
+  421  ls
+  422  rm ?.txt
+  423  rm ??.txt
+  424  rm ???.txt
+  425  rm ????.txt
+  426  rm ?????.txt
+  427  ls
+  428  rm ??????.txt
+  429  ls
+  430  # how to create 1MB file , 1GB file , 1TB
+  431  clear
+  432  dd if=/dev/zero of=1.txt bs=1M count=1
+  433  ls -lh 1.txt
+  434  dd if=/dev/zero of=1.txt bs=1M count=1000
+  435  ls -lh 1.txt
+  436  dd if=/dev/zero of=2.txt bs=1M count=1000
+  437  dd if=/dev/zero of=3.txt bs=1M count=1000
+  438  ls -lh
+  439  # How to archive
+  440  dd if=/dev/zero of={4..5}.txt bs=1M count=1000
+  441  ls -lh
+  442  rm 5.txt
+  443  ls
+  444  ls -lh
+
+447  tar -cvf samosa.tar 1.txt 2.txt 3.txt
+  448  ls -lh
+  449  rm ?.txt
+  450  ls
+  451  ls -lh
+  452  gzip samosa.tar
+  453  ls -lh
+  454  apt install bzip2
+  455  ls -lh
+  456  bzip2 samosa.tar.gz
+
+ 457  ls -lh
+  458  history
+  459  ls -lh
+  460  mkdir /samosa
+  461  cp samosa.tar.gz.bz2 /samosa/
+  462  cd /samosa/
+  463  ls
+  464  bunzip2 samosa.tar.gz.bz2
+  465  ls -lh samosa.tar.gz
+  466  gunzip samosa.tar.gz
+  467  ls -lh samosa.tar
+  468  tar -xvf samosa.tar
+  469  ls -lh
+  470  rm -fr samosa.tar
+  471  ls -lh
+  472  rm ?.txt
+  473  ls
+  474  history
